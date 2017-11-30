@@ -71,15 +71,15 @@ const template = [
     label: 'Info',
     submenu: [
       {
-        label: 'Issues',
+        label: 'Repository',
         click: () => {
-          require('electron').shell.openExternal('https://carlosteixeiraa.github.io')
+          require('electron').shell.openExternal('https://github.com/carlosteixeiraa/stralls')
         }  
       },
       {
-        label: 'Repository',
+        label: 'Issues',
         click: () => {
-          require('electron').shell.openExternal('https://carlosteixeiraa.github.io')          
+          require('electron').shell.openExternal('https://github.com/carlosteixeiraa/stralls/issues')          
         }  
       },
       {
