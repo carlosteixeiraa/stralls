@@ -7,8 +7,9 @@ let win
 // Create Window
 function createWindow () {
   win = new BrowserWindow({
-    width: 800,
-    height: 600
+    width: 900,
+    height: 600,
+    thick: false
   })
 
   const menu = Menu.buildFromTemplate(template);
