@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow: hidden;
+}
+
+html {
+	background-color: #37474F;
+}
+
+#input {
+	border-radius: 4px;
+	border: none;
+	margin-top: 20%;
+	padding: 5px;
+}
+
+#send {
+	margin-top: 2%;
+	padding: 10px;
+	border: none;
+	background-color: #009688;
+	border-radius: 4px;
+	color: white;
+	width: 10vh;
+}
+
+.nodejs {
+	padding: 10px;
+	border: none;
+	color: white;
+	background-color: inherit;
+}
+
+.js {
+	padding: 10px;
+	border: none;
+	color: white;
+	background-color: inherit;
+}
+
+.inputArea {
+	background-color: #212121;
+	height: 100vh;
+	border-right: 1px solid #424242;
+}
+
+.responseArea {
+	background-color: #212121;
+	height: 100vh;
+}
+
+.responseArea h3 {
+	margin-top: 4%;
+	color: #009688;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #424242;
+}
+
+.inputArea h1 {
+	margin-top: 40%;
+	color: white;
+	font-size: 75px;
+}
+
+.inputArea h4 {
+	margin-top: 40%;
+	color: white;
+	font-size: 18px;
+}
+
+.inputArea span {
+	font-size: 16px;
+	color: white;
+}
+
+#response {
+	padding-right: 5px;
+	font-size: 16px;
+	color: white;
+	word-wrap: break-word; 
+}

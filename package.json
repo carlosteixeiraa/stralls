@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cls && electron .",
-    "package-win": "electron-packager . electron-tutorial-app --overwrite --no-asar --platform=win32 --arch=ia32 --icon=/assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Stralls\""
+    "package-win": "electron-packager . stralls --overwrite --no-asar --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=\"Carlos Teixeira\" --version-string.FileDescription=CE --version-string.ProductName=\"Stralls\""
   },
   "keywords": [],
   "author": "Carlos Teixeira",
